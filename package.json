@@ -1,0 +1,24 @@
+{
+  "name": "electron-store-webpack-wrapper",
+  "version": "0.0.1",
+  "description": "Super simple wrapper around electron-store to use it with webpack",
+  "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/psperber/electron-store-webpack-wrapper",
+    "type": "git"
+  },
+  "author": "Philipp Sperber",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "electron-store": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rimraf": "^2.6.2"
+  }
+}
