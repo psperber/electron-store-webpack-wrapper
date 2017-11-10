@@ -1,6 +1,6 @@
 {
   "name": "electron-store-webpack-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Super simple wrapper around electron-store to use it with webpack",
   "main": "dist/index.js",
   "repository": {
